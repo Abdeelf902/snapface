@@ -28,8 +28,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: index.html  # Specify a name for the artifact
-          path: ./src/index.html
+          name: index.html  # Nom de l'artefact
+    path: ../src/index.html  # Chemin relatif vers le fichier
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
