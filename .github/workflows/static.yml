@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: index.html  # You can name the artifact as per your requirement
-          path: snapface/src/index.html
+          path: src/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
